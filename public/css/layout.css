@@ -1,0 +1,45 @@
+:root {
+    --bg-color: #FFF;
+    --txt-color: rgb(34, 34, 34);
+    --primary-bg-color: rgb(179, 114, 54);
+    --primary-txt-color: #FFF;
+    --secondary-bg-color: rgb(34, 34, 34);
+    --secondary-txt-color: #FFF;
+}
+
+* {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+html {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    color: var(--txt-color);
+    background-color: var(--bg-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#appHeader, #appFooter {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-txt-color);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#appHeader { font-size: 120%; }
+#appFooter { font-size: 80%; }
+
+#appContent {
+    flex-grow: 1;
+    padding: 20px;
+}
