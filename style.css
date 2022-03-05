@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#007CDE, #01E8BD);
+    min-height: 100vh;
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background-color: #3CB371;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-height: 40px;
+}
+a{
+    text-align: center;
+    color: white;
+    font-size: 70%;
+    margin-top: 20px;
+}
+
+header img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input, select, textarea, .fakeinput {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    min-height: 40px;
+    background-color: white;
+    color: #444;
+}
+
+.fakeinput input {
+display: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 80%;
+}
+
+fieldset {
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+legend {
+    font-size: 70%;
+    padding: 0 10px;
+}
+
+.linhadeformulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.colunadeformulario {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    flex-basis: 240px;
+}
+
+label {
+font-size: 80%;
+}
+
+form {
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+textarea {
+height: 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col {
+display: flex;
+flex-direction: column;
+}

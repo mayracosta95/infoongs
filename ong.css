@@ -1,0 +1,35 @@
+#logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 130%;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    font-size: 80%;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icones {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin-right: 20px;
+
+}
+
+.row {
+    margin-bottom: 20px;
+
+}
